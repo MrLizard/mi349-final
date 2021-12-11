@@ -1,0 +1,108 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: seashell;
+    color: seashell;
+    position: relative;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: sticky
+}
+nav li {
+    float: right;
+}
+
+nav .item{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: seashell;
+}
+
+nav .item:hover {
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 10px;
+}
+
+#logo {
+   text-align: center;
+   font-weight: bold;
+   font-size: 125px;
+}
+
+#routes-recieved {
+    text-align: center;
+    font-size: 35px;
+}
+
+.content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    margin: 10px;
+}
+
+.about {
+    margin: 10px;
+    background-color: rgba(53, 38, 17, 0.75);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about h2 {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about p {
+    margin: 10px;
+    padding: 10px, 10px, 10px;
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.about ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.about li {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about li img {
+    height: 50px;
+}
+
+.about .item{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: seashell;
+}
