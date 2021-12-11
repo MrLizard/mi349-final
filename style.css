@@ -1,11 +1,13 @@
-body {
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+html { 
+    background: url(images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color: seashell;
+  }
+
+body {
     color: seashell;
-    position: relative;
     font-family: 'Share Tech Mono', monospace;
 }
 
@@ -44,19 +46,6 @@ nav .item:hover {
     font-size: 35px;
 }
 
-.content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.content {
-    margin: 10px;
-}
-
 .about {
     margin: 10px;
     background-color: rgba(53, 38, 17, 0.75);
@@ -90,7 +79,7 @@ nav .item:hover {
 
 .about li {
     float: left;
-    background-color: rgba(255, 255, 255, 0.37);
+    background-color: rgba(255, 255, 255, 0.233);
     border-radius: 10px;
     margin: 10px;
 }
