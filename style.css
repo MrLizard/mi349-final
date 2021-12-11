@@ -97,3 +97,13 @@ nav .item:hover {
     text-decoration: none;
     color: seashell;
 }
+
+@media (max-width: 400px) {
+    #logo {
+        font-size: 40px;
+     }
+     
+     #routes-receiving {
+         font-size: 15px;
+     }
+}
